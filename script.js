@@ -4,7 +4,7 @@ function createTable() {
 	let table=document.getElementById("myTable");
 
 let rowss=prompt("Input number of rows")
-let colus=prompt(" Input number of columns")
+let colus=prompt("Input number of columns")
 
 let rows=+rowss
 let  colum=+colus
