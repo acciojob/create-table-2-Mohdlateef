@@ -16,7 +16,7 @@ for(let i=0;i<rows;i++)
     {
     let col=document.createElement("td");
     rows.appendChild(col);
-    col.innerText=`Row-${i}Column-${j}`
+    col.innerText=`Row-${i} Column-${j}`
     }
 }
 }
