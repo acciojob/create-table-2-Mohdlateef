@@ -1,11 +1,11 @@
-let table=document.getElementById("table");
+let table=document.getElementById("myTable");
 
 let rowss=prompt("Input number of Rows")
 let colus=prompt("Input number of columns")
 
 let rows=+rowss
 let colum=+colus;
-functio createTable() {
+function createTable() {
 	
 
 for(let i=0;i<rows;i++)
