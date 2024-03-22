@@ -2,11 +2,13 @@ let table=document.getElementById("myTable");
 
 let rowss=prompt("Input number of rows")
 let colus=prompt(" Input number of columns")
+
 let rows=2;
 let colum=2;
 
- rows=+rowss
- colum=+colus;
+if(rowss!=''&&colus!='')
+{rows=+rowss
+ colum=+colus;}
 function createTable() {
 	
 
